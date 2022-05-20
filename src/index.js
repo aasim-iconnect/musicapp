@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SongLists from "./routes/songlists";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Song from "./routes/song";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,7 +16,9 @@ root.render(
       <NavBar />
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/songs" element={<SongLists />} />
+        <Route path="/songs" element={<SongLists />}>
+          <Route path=":songid" element={<Song />} />
+        </Route>
       </Routes>
       <Footer />
     </Router>

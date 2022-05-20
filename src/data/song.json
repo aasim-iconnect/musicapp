@@ -1,0 +1,16 @@
+{
+  "Songs": [
+    {
+      "id": 1,
+      "name": "Single Ladies (Put a Ring on It)",
+      "author": "Beyonce"
+    },
+    { "id": 2, "name": "Umbrella", "author": "Rihanna" },
+    { "id": 3, "name": "Shake it Off", "author": "Reese Witherspoon" },
+    { "id": 4, "name": "Toxic", "author": "Britney Spears" },
+    { "id": 5, "name": "Rolling in the Deep", "author": "Adele" },
+    { "id": 6, "name": "Firework", "author": "Katty Perry" },
+    { "id": 7, "name": "Rehab", "author": "Amy Winehouse" },
+    { "id": 8, "name": "Blinding Lights", "author": "The Weeknd" }
+  ]
+}
